@@ -12,3 +12,9 @@
     width: 40%;
     display: inline-block;
 }
+
+@media (max-width: 500px) {
+    .my-form {
+        width: 80%;
+    }
+}

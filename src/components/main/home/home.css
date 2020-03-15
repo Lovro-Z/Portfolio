@@ -27,14 +27,7 @@ ul#horizontal-list {
 ul#horizontal-list li {
     display: inline;
     padding: 10px 15px;
-    color: lightgray;
-}
-
-@media(max-width: 776px) {
-
-    ul#horizontal-list li {
-        display: inline-block;
-    }
+    color: #fff;
 }
 
 .icons i{
@@ -45,4 +38,15 @@ ul#horizontal-list li {
 .icons i:hover{
     cursor: pointer;
     color: #53a7ea;
+}
+
+@media(max-width: 376px) {
+
+    ul#horizontal-list li {
+        display: inline-block;
+    }
+
+    .image {
+        width: 60%;
+    }
 }

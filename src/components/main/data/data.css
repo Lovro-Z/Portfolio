@@ -1,4 +1,13 @@
+.my-container {
+    padding-bottom: 20px;
+}
 .data-item {
     margin: 10px auto;
     width: 40%;
+}
+
+@media (max-width: 500px) {
+    .data-item {
+        width: 80%;
+    }
 }

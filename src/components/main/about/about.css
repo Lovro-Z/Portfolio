@@ -1,5 +1,6 @@
 .about-container {
-    margin: 70px auto;
+    margin: 50px auto 0;
+    padding-bottom: 5px;
     text-align: center;
     color: #fff;
     width: 70%;
@@ -9,7 +10,7 @@
     padding-top: 30px;
     padding-bottom: 20px;
     font-size: 30px;
-    font-family: "Great Vibes", cursive;
+    font-family: "Great Vibes", serif;
     width: 50%;
     display: inline-block;
 }
@@ -39,21 +40,27 @@
 .project-image {
     align-items: start;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
 
     .article {
         font-size: 18px;
+        width: 80%;
     }
 
     #center-p {
-        font-size: 20px;
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .project-description h1{
+        font-size: 30px;
     }
 
     .project-description {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
