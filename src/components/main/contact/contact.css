@@ -1,0 +1,14 @@
+.my-container {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.my-container h1 {
+    margin-bottom: 40px;
+}
+
+.my-form {
+    margin: 50px 0;
+    width: 40%;
+    display: inline-block;
+}

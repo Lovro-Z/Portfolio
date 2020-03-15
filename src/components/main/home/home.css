@@ -1,0 +1,48 @@
+.my-container {
+    margin-top: 70px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.image {
+    width: 40%;
+    margin-top: 45px;
+}
+
+.table {
+    display: table;   /* Allow the centering to work */
+    margin: 40px auto;
+    font-size: 25px;
+}
+
+ul#horizontal-list {
+    width: 100%;
+    list-style: none;
+    padding-top: 20px;
+}
+ul#horizontal-list li {
+    display: inline;
+    padding: 10px 15px;
+    color: lightgray;
+}
+
+@media(max-width: 776px) {
+
+    ul#horizontal-list li {
+        display: inline-block;
+    }
+}
+
+.icons i{
+    margin: 15px 30px;
+    color: #fff;
+}
+
+.icons i:hover{
+    cursor: pointer;
+    color: #53a7ea;
+}
