@@ -11,10 +11,10 @@ class About extends Component {
                 <h1>Learn more about me</h1>
                 <section className="article">
                     <p>
-                        Experienced in developing both backend and frontend Web applications using modern technologies such as
+                        Experienced in developing both backend and frontend for Web applications using modern technologies such as
                         Spring,  Java, Angular, React and JavaScript.
                     </p>
-                    <p>Currently pursuing a Bachelor's degree on Zagreb University of Applied Sciences in Software Engineering</p>
+                    <p>Currently pursuing a Master's degree on Zagreb University of Applied Sciences in Software Engineering</p>
                 </section>
 
                 <p id="center-p">Here are some of my projects</p>
@@ -24,7 +24,7 @@ class About extends Component {
                         <div className="project-description">
                             <h1>Travel Buddy</h1>
                             <p>
-                                Web application project using Java Spring Boot as REST API for backend and Angular with Clarity Design UI for frontend.
+                                Web application project using Java Spring Boot as REST API for backend and React.js library for frontend.
                             </p>
                         </div>
                         <Image className="project-image" src={travelBuddy}/>
